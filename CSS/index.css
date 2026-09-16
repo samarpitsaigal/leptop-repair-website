@@ -54,6 +54,15 @@ body {
 
 }
 
+.hero-btn-link {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #168BFF;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .repair-brand {
   display: flex;
   flex-direction: column;
@@ -184,6 +193,19 @@ body {
   border-radius: 5px;
   font-weight: 600;
   margin-top: 1rem;
+}
+
+.view-services-link {
+  border: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #168BFF;
+  max-width: 150px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-decoration: none;
 }
 
 .how-it-works {
