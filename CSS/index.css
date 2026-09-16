@@ -468,17 +468,51 @@ body {
 
   .service-card {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Service-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Service-detail > i {
+    justify-self: auto;
+  }
+
+  .how-it-works {
+    align-items: center;
+    text-align: center;
   }
 
   .steps {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .step {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .number {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -12px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .arrow {
     transform: rotate(90deg);
-    margin-left: 10px;
+    margin-left: 0;
   }
 
   .step {
