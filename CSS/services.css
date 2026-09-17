@@ -61,7 +61,8 @@ body {
 
 .hero p {
   color: #e1eaf4;
-  line-height: 1.6;
+  line-height: 1.5;
+  width: 80%;
   font-size: 15px;
   margin-top: 12px;
 }
