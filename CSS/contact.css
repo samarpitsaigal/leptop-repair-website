@@ -409,9 +409,7 @@ form button:hover {
 }
 
 
-/* =========================
-   PRIVACY
-========================= */
+/*  PRIVACY */
 
 .privacy {
     display: flex;
@@ -430,9 +428,7 @@ form button:hover {
 }
 
 
-/* =========================
-   BOTTOM FEATURES
-========================= */
+/* BOTTOM FEATURES */
 
 .features {
     width: 100%;
