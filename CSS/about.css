@@ -549,7 +549,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 23px;
+    font-size: 27px;
   }
 
   .story {
@@ -597,6 +597,6 @@ body {
 
 @media (max-width: 400px) {
   .hero h1 {
-    font-size: 20px;
+    font-size: 23px;
   }
 }
