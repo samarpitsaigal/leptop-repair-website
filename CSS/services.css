@@ -24,7 +24,7 @@ body {
 .hero-content {
   width: 58%;
   margin-left: 9.7%;
-  padding-top: 36px 0;
+  padding-top: 36px;
   padding-bottom: 30px;
   position: relative;
   z-index: 2;
@@ -101,16 +101,7 @@ body {
 }
 
 .hero-image {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 48%;
-  height: 100%;
-  background-image:
-    linear-gradient(90deg, #06192b 0%, transparent 45%),
-    url('../images/hero.jpeg');
-  background-size: cover;
-  background-position: center;
+  display: none;
 }
 
 
@@ -408,12 +399,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 32px;
-  }
-
-  .hero-image {
-    width: 100%;
-    opacity: 0.2;
+    font-size: 24px;
   }
 
   .features {
@@ -443,5 +429,11 @@ body {
     border-right: none;
     border-bottom: 1px solid #294159;
     padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 20px;
   }
 }

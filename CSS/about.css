@@ -549,7 +549,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 30px;
+    font-size: 23px;
   }
 
   .story {
@@ -592,5 +592,11 @@ body {
     border-right: none;
     border-bottom: 1px solid #294159;
     padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 20px;
   }
 }

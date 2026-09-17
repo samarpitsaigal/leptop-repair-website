@@ -196,19 +196,7 @@ body {
 }
 
 .hero-image {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 48%;
-  height: 100%;
-
-  /* Apni laptop image ka path yahan lagao */
-  background-image:
-    linear-gradient(90deg, #06192b 0%, transparent 45%),
-    url("./images/laptop.jpg");
-
-  background-size: cover;
-  background-position: center;
+  display: none;
 }
 
 
@@ -502,12 +490,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 34px;
-  }
-
-  .hero-image {
-    width: 100%;
-    opacity: 0.2;
+    font-size: 24px;
   }
 
   .features {
@@ -531,5 +514,11 @@ body {
     border-right: none;
     border-bottom: 1px solid #294159;
     padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 20px;
   }
 }
