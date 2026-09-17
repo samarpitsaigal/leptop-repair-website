@@ -480,6 +480,14 @@ body {
     font-size: 30px;
   }
 
+  .hero-para {
+    max-width: 88%;
+  }
+
+  .image-content {
+    gap: 14px;
+  }
+
   .hero-btn>button {
     font-size: 11px;
   }
